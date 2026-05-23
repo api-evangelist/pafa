@@ -1,0 +1,149 @@
+name: PAFA Vocabulary
+description: >-
+  Domain vocabulary for the Pennsylvania Academy of the Fine Arts (PAFA),
+  capturing the institutional, museological, and educational concepts
+  needed to describe America's first museum and school of fine arts. PAFA
+  publishes no developer APIs; this vocabulary therefore models the
+  institution itself rather than an API surface, and aligns to
+  schema.org Museum, EducationalOrganization, and ExhibitionEvent.
+version: 0.1.0
+modified: '2026-05-23'
+maintainer:
+  name: Kin Lane
+  email: kin@apievangelist.com
+
+institution:
+  - term: PAFA
+    definition: >-
+      The Pennsylvania Academy of the Fine Arts; a 501(c)(3) cultural
+      nonprofit founded 1805 in Philadelphia; the first museum and school
+      of fine arts in the United States.
+  - term: Founders
+    definition: >-
+      The painter and scientist Charles Willson Peale, the sculptor
+      William Rush, and other Philadelphia artists and business leaders
+      who established PAFA in 1805.
+  - term: Furness-Hewitt Building
+    definition: >-
+      PAFA's principal historic building, designed by Frank Furness and
+      George Hewitt and opened in 1876; designated a National Historic
+      Landmark in 1975.
+  - term: Samuel M. V. Hamilton Building
+    definition: >-
+      PAFA's secondary building, connected to the Furness-Hewitt Building
+      via Lenfest Plaza.
+  - term: Lenfest Plaza
+    definition: The outdoor public plaza connecting PAFA's two buildings.
+
+museum:
+  - term: PermanentCollection
+    definition: >-
+      PAFA's permanent holdings of primarily 19th- and 20th-century
+      American art.
+  - term: Linda Lee Alter Collection of Art by Women
+    definition: >-
+      A named sub-collection within PAFA's permanent holdings focused on
+      works by women artists.
+  - term: Exhibition
+    definition: A time-bounded public display of artworks at PAFA.
+  - term: A Nation of Artists
+    definition: >-
+      "A once-in-a-generation presentation celebrating 250 years of
+      American creativity" — exhibition running April 2026 - September
+      2027, presented with the Philadelphia Museum of Art and the
+      Middleton Family Collection.
+  - term: Bodies and Souls
+    definition: Exhibition running March 2026 - July 2026.
+  - term: Student Works
+    definition: >-
+      Annual exhibition of works produced by PAFA students during the
+      academic year.
+  - term: DigitalGuide
+    definition: >-
+      PAFA's interpretive content for visitors, delivered through the
+      Bloomberg Connects free multi-institution mobile app rather than
+      a first-party PAFA application.
+
+school:
+  - term: FineArtsCertificateProgram
+    definition: >-
+      PAFA's active three-year career-training certificate "designed to
+      prepare students for entry-level professional roles within the
+      visual arts and related creative industries." Replaces the BFA
+      degree pathway as the primary on-site studio program.
+  - term: ContinuingEducation
+    definition: >-
+      "An inclusive studio arts offering for artists of all ages and
+      skill levels, from beginners to advanced creatives" — delivered
+      both in-person and online.
+  - term: YouthAndTeenPrograms
+    definition: >-
+      K-12 programming including Summer Art Camp, Summer Academy, field
+      trips, and family programming.
+  - term: PAFAShopMembership
+    definition: >-
+      Studio-access membership granting "affordable, self-guided access
+      to professional-grade printmaking, papermaking, and sculpture
+      studios."
+  - term: DegreeProgramWindDown
+    definition: >-
+      Beginning with the 2024-2025 academic year, PAFA ceased granting
+      its own BFA and MFA degrees following a financial crisis driven by
+      a roughly $3 million annual deficit and sharp enrollment decline.
+  - term: UPennPartnership
+    definition: >-
+      Bachelor's degrees in fine arts offered jointly with the University
+      of Pennsylvania continue beyond the wind-down of PAFA's own
+      degree-granting authority.
+
+visit:
+  - term: GeneralAdmission
+    definition: >-
+      Standard museum entry pricing: $25 adults, $23 seniors (65+),
+      $10 students, $5 youth (13-17), free for members and children
+      12 and under.
+  - term: OperatingDays
+    definition: >-
+      Open Monday, Thursday, Friday (extended to 8 PM), Saturday, Sunday.
+      Closed Tuesday and Wednesday.
+  - term: Membership
+    definition: >-
+      Annual paid membership tier granting free admission and member
+      benefits; administered through pafa.org/members.
+
+giving:
+  - term: PAFAFund
+    definition: PAFA's annual unrestricted-giving fund.
+  - term: PlannedGiving
+    definition: >-
+      PAFA's deferred and estate-giving program for major-gift donors.
+  - term: AlumniGiving
+    definition: Alumni-channel giving program.
+  - term: GiftOfArt
+    definition: >-
+      Gifts of works of art to PAFA's permanent collection, accepted
+      subject to curatorial review.
+  - term: CommunityGivingPlatform
+    definition: >-
+      Donations are routed to community.pafa.org/give — a third-party
+      community-giving platform PAFA uses for online gifts.
+
+api_surface:
+  - term: NoDeveloperPortal
+    definition: >-
+      PAFA does not publish a developer portal; no developer.pafa.org or
+      equivalent exists.
+  - term: NoOpenAPI
+    definition: PAFA publishes no OpenAPI, AsyncAPI, or schema artifacts.
+  - term: NoSDK
+    definition: PAFA publishes no SDKs, CLIs, or webhook contracts.
+  - term: NoInstitutionalGitHub
+    definition: >-
+      No institutional GitHub organization exists for PAFA; the
+      github.com/pafa handle is an unrelated personal user account.
+  - term: BloombergConnects
+    definition: >-
+      Bloomberg Philanthropies' shared free digital-guide mobile app,
+      through which PAFA distributes its collection and tour content —
+      PAFA's only programmatic third-party distribution surface, owned
+      and operated by Bloomberg, not PAFA.

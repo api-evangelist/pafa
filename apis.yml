@@ -111,9 +111,6 @@ common:
   - type: ContactEmail
     url: mailto:visitorservices@pafa.org
     title: Visitor services email
-  - type: ContactPhone
-    url: tel:+12159727600
-    title: Main phone — (215) 972-7600
   - type: Address
     url: https://maps.google.com/?q=118-128+North+Broad+Street+Philadelphia+PA+19102
     title: 118-128 North Broad Street, Philadelphia, PA 19102

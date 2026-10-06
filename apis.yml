@@ -94,10 +94,12 @@ tags_raw:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/pafa/refs/heads/main/apis.yml
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.pafa.org/about/news
+    type: Blog
   - type: DomainSecurity
     url: security/pafa-domain-security.yml
   - type: Website
